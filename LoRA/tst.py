@@ -7,8 +7,6 @@ from utils import model,tokenized,tokenizer,greedy_gen,untokenize,soft_p_list
 
 
 
-#kkkk1111234
-
 train_text = "it is a truth universally acknowledged, that a single"
 train_input_ids = tokenized(train_text)
 labels = train_input_ids.clone()
